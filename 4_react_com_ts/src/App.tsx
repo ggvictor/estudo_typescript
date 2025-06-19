@@ -1,4 +1,7 @@
 import React from 'react';
+// 4 - importação de componentes
+import FirstComponents from './components/FirstComponents';
+
 function App(){
     // 1 - variaveis
     const name: string = "Victor"
@@ -19,6 +22,7 @@ function App(){
                 <p>Esta trabalhando</p>
             )}
             <h3>{userGreeting(name)}</h3>
+            <FirstComponents/>
         </div>
     );
 }
